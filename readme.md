@@ -9,7 +9,6 @@ The Beginner's Python Learning project aims to provide a comprehensive learning 
   - [Installation 👨‍💻](#installation-)
   - [Usage 🧑🏻‍💼](#usage-)
   - [Contributing ✊🏻](#contributing-)
->>>>>>> main
 
 ## Project Description 🕵️‍♀️
 
