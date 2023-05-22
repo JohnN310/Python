@@ -27,5 +27,3 @@ A collection of code examples is provided to demonstrate various programming con
 ## Contributing ✊🏻
 
 If you would like to contribute to the project, submit pull requests, report issues, or suggest improvements. Any feedback or suggestion is appreciated.
- Halo
- 
