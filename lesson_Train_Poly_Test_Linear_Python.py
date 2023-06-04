@@ -1,10 +1,9 @@
 #Three lines to make our compiler able to draw:
 import sys
 import matplotlib
-matplotlib.use('Agg')
-
-import numpy
+matplotlib.use('TkAgg')  # or 'QtAgg' depending on your system
 import matplotlib.pyplot as plt
+import numpy
 from scipy import stats
 from sklearn.metrics import r2_score
 

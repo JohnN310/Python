@@ -1,10 +1,11 @@
 #Three lines to make our compiler able to draw:
 import sys
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use('TkAgg')  # or 'QtAgg' depending on your system
+import matplotlib.pyplot as plt
 
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
 y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])

@@ -1,9 +1,9 @@
 #Three lines to make our compiler able to draw:
 import sys
 import matplotlib
-matplotlib.use('Agg')
-
+matplotlib.use('TkAgg')  # or 'QtAgg' depending on your system
 import matplotlib.pyplot as plt
+
 from sklearn.cluster import KMeans
 from sklearn.neighbors import KNeighborsClassifier
 

@@ -1,11 +1,12 @@
 #Three lines to make our compiler able to draw:
 import sys
-import matplotlib 
-matplotlib.use('Agg')
+import matplotlib
+matplotlib.use('TkAgg')  # or 'QtAgg' depending on your system
+import matplotlib.pyplot as plt
 import pandas
 from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
-import matplotlib.pyplot as plt
+
 
 
 df = pandas.read_csv("data.csv")
